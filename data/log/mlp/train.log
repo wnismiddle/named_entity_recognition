@@ -1,0 +1,236 @@
+2018-10-23 17:54:15,014 - ../data/log/mlp/train.log - DEBUG -              precision    recall  f1-score   support
+
+          O     0.9440    0.9772    0.9603     24794
+     B-date     0.9583    0.8734    0.9139        79
+      B-org     0.7326    0.6087    0.6649       414
+   B-person     0.6105    0.4427    0.5133       131
+  I-abr_org     0.8392    0.5735    0.6813      1620
+     I-date     0.9876    1.0000    0.9938       636
+      I-org     0.8737    0.8737    0.8737      4950
+   I-person     0.6047    0.4771    0.5333       218
+  B-abr_org     0.8160    0.4991    0.6193       533
+
+avg / total     0.9212    0.9249    0.9208     33375
+
+2018-10-23 17:57:04,698 - ../data/log/mlp/train.log - DEBUG -              precision    recall  f1-score   support
+
+          O     0.8981    0.9689    0.9322     24794
+     B-date     0.0000    0.0000    0.0000        79
+      B-org     0.7944    0.2053    0.3263       414
+   B-person     0.0000    0.0000    0.0000       131
+  I-abr_org     0.6830    0.3710    0.4808      1620
+     I-date     0.9528    0.9198    0.9360       636
+      I-org     0.7892    0.7818    0.7855      4950
+   I-person     0.0000    0.0000    0.0000       218
+  B-abr_org     0.9752    0.2214    0.3609       533
+
+avg / total     0.8610    0.8774    0.8600     33375
+
+2018-10-23 17:59:28,252 - ../data/log/mlp/train.log - DEBUG -              precision    recall  f1-score   support
+
+          O     0.7824    0.9864    0.8726     24794
+     B-date     0.0000    0.0000    0.0000        79
+      B-org     0.0000    0.0000    0.0000       414
+   B-person     0.0000    0.0000    0.0000       131
+  I-abr_org     0.2059    0.1630    0.1819      1620
+     I-date     0.0000    0.0000    0.0000       636
+      I-org     0.9403    0.1590    0.2720      4950
+   I-person     0.0000    0.0000    0.0000       218
+  B-abr_org     0.0000    0.0000    0.0000       533
+
+avg / total     0.7307    0.7643    0.6975     33375
+
+2018-10-23 17:59:28,310 - ../data/log/mlp/train.log - DEBUG - precision: 0.49598867390278434
+2018-10-23 17:59:28,328 - ../data/log/mlp/train.log - DEBUG - recall   : 0.1224798974478499
+2018-11-05 11:01:52,989 - ../data/log/mlp/train.log - INFO -              precision    recall  f1-score   support
+
+          O     0.8967    0.9323    0.9142     39784
+     B-date     0.0000    0.0000    0.0000        97
+      B-org     0.0000    0.0000    0.0000       593
+   B-person     0.0000    0.0000    0.0000       210
+  I-abr_org     1.0000    0.0005    0.0010      2087
+     I-date     1.0000    0.4271    0.5986       789
+      I-org     0.6017    0.8347    0.6993      7382
+   I-person     0.0000    0.0000    0.0000       354
+  B-abr_org     0.9545    0.0315    0.0610       667
+
+avg / total     0.8396    0.8393    0.8092     51963
+
+2018-11-05 11:01:53,099 - ../data/log/mlp/train.log - INFO - precision: 0.6151306480520705
+2018-11-05 11:01:53,127 - ../data/log/mlp/train.log - INFO - recall   : 0.5354298382461614
+2018-11-05 11:03:28,559 - ../data/log/mlp/train.log - INFO -              precision    recall  f1-score   support
+
+          O     0.9084    0.8911    0.8997     39784
+     B-date     0.0000    0.0000    0.0000        97
+      B-org     0.3153    0.1079    0.1608       593
+   B-person     0.0000    0.0000    0.0000       210
+  I-abr_org     0.0000    0.0000    0.0000      2087
+     I-date     1.0000    0.0406    0.0780       789
+      I-org     0.5172    0.8769    0.6506      7382
+   I-person     0.0000    0.0000    0.0000       354
+  B-abr_org     0.7394    0.2084    0.3251       667
+
+avg / total     0.7972    0.8113    0.7884     51963
+
+2018-11-05 11:03:28,658 - ../data/log/mlp/train.log - INFO - precision: 0.5184326454903778
+2018-11-05 11:03:28,684 - ../data/log/mlp/train.log - INFO - recall   : 0.550784136628623
+2018-11-05 11:04:27,671 - ../data/log/mlp/train.log - INFO -              precision    recall  f1-score   support
+
+          O     0.8153    0.9916    0.8949     39784
+     B-date     0.0000    0.0000    0.0000        97
+      B-org     0.0000    0.0000    0.0000       593
+   B-person     0.0000    0.0000    0.0000       210
+  I-abr_org     0.3521    0.1078    0.1651      2087
+     I-date     0.8108    0.8910    0.8490       789
+      I-org     0.9349    0.2628    0.4103      7382
+   I-person     0.0000    0.0000    0.0000       354
+  B-abr_org     0.0000    0.0000    0.0000       667
+
+avg / total     0.7835    0.8143    0.7629     51963
+
+2018-11-05 11:04:27,772 - ../data/log/mlp/train.log - INFO - precision: 0.8008936051382295
+2018-11-05 11:04:27,799 - ../data/log/mlp/train.log - INFO - recall   : 0.23548731422941127
+2018-11-05 11:34:54,680 - ../data/log/mlp/train.log - INFO -              precision    recall  f1-score   support
+
+          O     0.9751    0.9696    0.9723     39784
+     B-date     0.9588    0.9588    0.9588        97
+      B-org     0.7774    0.7302    0.7530       593
+   B-person     0.7150    0.6571    0.6849       210
+  I-abr_org     0.7690    0.7719    0.7704      2087
+     I-date     0.9937    0.9975    0.9956       789
+      I-org     0.8722    0.9172    0.8942      7382
+   I-person     0.7235    0.7316    0.7275       354
+  B-abr_org     0.8073    0.6597    0.7261       667
+
+avg / total     0.9452    0.9451    0.9450     51963
+
+2018-11-05 11:34:54,779 - ../data/log/mlp/train.log - INFO - precision: 0.8493548387096774
+2018-11-05 11:34:54,808 - ../data/log/mlp/train.log - INFO - recall   : 0.8647672222678382
+2018-11-05 14:55:00,765 - ../data/log/mlp/train.log - INFO -              precision    recall  f1-score   support
+
+          O     0.8795    0.9058    0.8925     34759
+     B-date     0.0000    0.0000    0.0000       125
+      B-org     0.2500    0.0017    0.0034       590
+   B-person     0.0000    0.0000    0.0000       206
+  I-abr_org     0.0986    0.4370    0.1610      2000
+     I-date     0.6101    0.9901    0.7550      1013
+      I-org     0.9332    0.0794    0.1464      7216
+   I-person     0.0000    0.0000    0.0000       391
+  B-abr_org     0.0000    0.0000    0.0000       617
+
+avg / total     0.8157    0.7233    0.7069     46917
+
+2018-11-05 14:55:00,885 - ../data/log/mlp/train.log - INFO - precision: 0.22037403344722173
+2018-11-05 14:55:00,926 - ../data/log/mlp/train.log - INFO - recall   : 0.20159565718045735
+2018-11-05 16:27:59,723 - ../data/log/mlp/train.log - INFO -              precision    recall  f1-score   support
+
+          O     0.9653    0.9692    0.9672     34759
+     B-date     0.9389    0.9840    0.9609       125
+      B-org     0.6492    0.6492    0.6492       590
+   B-person     0.7887    0.5437    0.6437       206
+  I-abr_org     0.8562    0.5715    0.6855      2000
+     I-date     0.9718    0.9882    0.9799      1013
+      I-org     0.8301    0.9313    0.8778      7216
+   I-person     0.7262    0.4885    0.5841       391
+  B-abr_org     0.7552    0.5300    0.6229       617
+
+avg / total     0.9304    0.9312    0.9286     46917
+
+2018-11-05 16:27:59,818 - ../data/log/mlp/train.log - INFO - precision: 0.8320159747067144
+2018-11-05 16:27:59,852 - ../data/log/mlp/train.log - INFO - recall   : 0.8225037012666557
+2018-11-06 15:20:41,922 - D://Program Files/Python/workspace/named_entity_recognition/data/log/mlp/train.log - INFO -              precision    recall  f1-score   support
+
+          O     0.9195    0.9717    0.9449      7922
+     B-date     0.0000    0.0000    0.0000        22
+      B-org     0.0000    0.0000    0.0000       113
+   B-person     0.0000    0.0000    0.0000        46
+  I-abr_org     0.6667    0.4749    0.5547       459
+     I-date     0.8610    0.9583    0.9070       168
+      I-org     0.7533    0.7458    0.7495      1306
+   I-person     1.0000    0.0395    0.0759        76
+  B-abr_org     0.6000    0.3103    0.4091       145
+
+avg / total     0.8659    0.8871    0.8712     10257
+
+2018-11-06 15:20:41,958 - D://Program Files/Python/workspace/named_entity_recognition/data/log/mlp/train.log - INFO - precision: 0.743236074270557
+2018-11-06 15:20:41,964 - D://Program Files/Python/workspace/named_entity_recognition/data/log/mlp/train.log - INFO - recall   : 0.6000000000000001
+2018-11-06 16:03:31,155 - D://Program Files/Python/workspace/named_entity_recognition/data/log/mlp/train.log - INFO -              precision    recall  f1-score   support
+
+          O     0.9461    0.9821    0.9638      7922
+     B-date     0.9048    0.8636    0.8837        22
+      B-org     0.8795    0.6460    0.7449       113
+   B-person     0.7917    0.8261    0.8085        46
+  I-abr_org     0.7200    0.6667    0.6923       459
+     I-date     0.9758    0.9583    0.9670       168
+      I-org     0.8993    0.7588    0.8231      1306
+   I-person     0.7662    0.7763    0.7712        76
+  B-abr_org     0.7699    0.6000    0.6744       145
+
+avg / total     0.9252    0.9276    0.9250     10257
+
+2018-11-06 16:03:31,176 - D://Program Files/Python/workspace/named_entity_recognition/data/log/mlp/train.log - INFO - precision: 0.8525073746312684
+2018-11-06 16:03:31,182 - D://Program Files/Python/workspace/named_entity_recognition/data/log/mlp/train.log - INFO - recall   : 0.7426124197002141
+2018-11-08 09:47:02,306 - D://Program Files/Python/workspace/named_entity_recognition/data/log/mlp/train.log - INFO -              precision    recall  f1-score   support
+
+          O     0.9171    0.9654    0.9407      7922
+     B-date     0.0000    0.0000    0.0000        22
+      B-org     0.0000    0.0000    0.0000       113
+   B-person     0.0000    0.0000    0.0000        46
+  I-abr_org     0.6262    0.5621    0.5924       459
+     I-date     0.8750    0.9167    0.8953       168
+      I-org     0.7703    0.7550    0.7626      1306
+   I-person     1.0000    0.0132    0.0260        76
+  B-abr_org     0.9184    0.3103    0.4639       145
+
+avg / total     0.8692    0.8864    0.8715     10257
+
+2018-11-08 09:47:02,336 - D://Program Files/Python/workspace/named_entity_recognition/data/log/mlp/train.log - INFO - precision: 0.7528675703858185
+2018-11-08 09:47:02,343 - D://Program Files/Python/workspace/named_entity_recognition/data/log/mlp/train.log - INFO - recall   : 0.6184154175588865
+2018-11-08 10:43:07,917 - D://Program Files/Python/workspace/named_entity_recognition/data/log/mlp/train.log - INFO -              precision    recall  f1-score   support
+
+          O     0.9175    0.9667    0.9414      7922
+     B-date     0.8889    0.7273    0.8000        22
+      B-org     0.6000    0.0265    0.0508       113
+   B-person     0.0000    0.0000    0.0000        46
+  I-abr_org     0.6189    0.5556    0.5855       459
+     I-date     0.8478    0.9286    0.8864       168
+      I-org     0.7673    0.6968    0.7303      1306
+   I-person     1.0000    0.0132    0.0260        76
+  B-abr_org     0.4904    0.3517    0.4096       145
+
+avg / total     0.8707    0.8823    0.8691     10257
+
+2018-11-08 10:43:07,936 - D://Program Files/Python/workspace/named_entity_recognition/data/log/mlp/train.log - INFO - precision: 0.7287958115183247
+2018-11-08 10:43:07,941 - D://Program Files/Python/workspace/named_entity_recognition/data/log/mlp/train.log - INFO - recall   : 0.5961456102783727
+2018-11-08 10:44:58,505 - D://Program Files/Python/workspace/named_entity_recognition/data/log/mlp/train.log - INFO -              precision    recall  f1-score   support
+
+          O     0.9169    0.9682    0.9419      7922
+     B-date     0.0000    0.0000    0.0000        22
+      B-org     0.5333    0.3540    0.4255       113
+   B-person     0.0000    0.0000    0.0000        46
+  I-abr_org     0.6246    0.4858    0.5466       459
+     I-date     0.9512    0.9286    0.9398       168
+      I-org     0.7529    0.6998    0.7254      1306
+   I-person     0.5000    0.0132    0.0256        76
+  B-abr_org     0.6125    0.3379    0.4356       145
+
+avg / total     0.8658    0.8826    0.8707     10257
+
+2018-11-08 10:44:58,505 - D://Program Files/Python/workspace/named_entity_recognition/data/log/mlp/train.log - INFO -              precision    recall  f1-score   support
+
+          O     0.9169    0.9682    0.9419      7922
+     B-date     0.0000    0.0000    0.0000        22
+      B-org     0.5333    0.3540    0.4255       113
+   B-person     0.0000    0.0000    0.0000        46
+  I-abr_org     0.6246    0.4858    0.5466       459
+     I-date     0.9512    0.9286    0.9398       168
+      I-org     0.7529    0.6998    0.7254      1306
+   I-person     0.5000    0.0132    0.0256        76
+  B-abr_org     0.6125    0.3379    0.4356       145
+
+avg / total     0.8658    0.8826    0.8707     10257
+
+2018-11-08 10:44:58,525 - D://Program Files/Python/workspace/named_entity_recognition/data/log/mlp/train.log - INFO - precision: 0.7309725158562367
+2018-11-08 10:44:58,525 - D://Program Files/Python/workspace/named_entity_recognition/data/log/mlp/train.log - INFO - precision: 0.7309725158562367
+2018-11-08 10:44:58,532 - D://Program Files/Python/workspace/named_entity_recognition/data/log/mlp/train.log - INFO - recall   : 0.5922912205567452
+2018-11-08 10:44:58,532 - D://Program Files/Python/workspace/named_entity_recognition/data/log/mlp/train.log - INFO - recall   : 0.5922912205567452

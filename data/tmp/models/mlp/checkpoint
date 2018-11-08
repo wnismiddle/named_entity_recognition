@@ -1,0 +1,2 @@
+model_checkpoint_path: "D://Program Files/Python/workspace/named_entity_recognition/data/tmp/models/mlp/train.ckpt"
+all_model_checkpoint_paths: "D://Program Files/Python/workspace/named_entity_recognition/data/tmp/models/mlp/train.ckpt"

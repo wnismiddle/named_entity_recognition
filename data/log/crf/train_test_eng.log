@@ -1,0 +1,126 @@
+2018-11-03 21:35:23,708 - ../data/log/crf/train_test_eng.log - INFO - processed 49651 tokens with 1546 phrases; found: 1464 phrases; correct: 1315.
+
+2018-11-03 21:35:23,708 - ../data/log/crf/train_test_eng.log - INFO - accuracy:  96.58%; precision:  89.82%; recall:  85.06%; FB1:  87.38
+
+2018-11-03 21:35:23,708 - ../data/log/crf/train_test_eng.log - INFO -           abr_org: precision:  85.48%; recall:  77.85%; FB1:  81.49  551
+
+2018-11-03 21:35:23,708 - ../data/log/crf/train_test_eng.log - INFO -              date: precision:  98.45%; recall:  97.69%; FB1:  98.07  129
+
+2018-11-03 21:35:23,708 - ../data/log/crf/train_test_eng.log - INFO -               org: precision:  90.15%; recall:  89.17%; FB1:  89.66  548
+
+2018-11-03 21:35:23,708 - ../data/log/crf/train_test_eng.log - INFO -            person: precision:  94.49%; recall:  86.77%; FB1:  90.47  236
+
+2018-11-03 22:27:34,949 - ../data/log/crf/train_test_eng.log - DEBUG -              precision    recall  f1-score   support
+
+  B-abr_org     0.8891    0.8083    0.8468       605
+  I-abr_org     0.8586    0.8033    0.8300      1942
+     B-date     0.9922    0.9769    0.9845       130
+     I-date     0.9972    0.9805    0.9887      1075
+      B-org     0.9252    0.9152    0.9201       554
+      I-org     0.9198    0.9475    0.9335      6692
+   B-person     0.9661    0.8872    0.9249       257
+   I-person     0.9518    0.8681    0.9080       432
+
+avg / total     0.9184    0.9139    0.9157     11687
+
+2018-11-03 22:27:34,949 - ../data/log/crf/train_test_eng.log - DEBUG -              precision    recall  f1-score   support
+
+  B-abr_org     0.8891    0.8083    0.8468       605
+  I-abr_org     0.8586    0.8033    0.8300      1942
+     B-date     0.9922    0.9769    0.9845       130
+     I-date     0.9972    0.9805    0.9887      1075
+      B-org     0.9252    0.9152    0.9201       554
+      I-org     0.9198    0.9475    0.9335      6692
+   B-person     0.9661    0.8872    0.9249       257
+   I-person     0.9518    0.8681    0.9080       432
+
+avg / total     0.9184    0.9139    0.9157     11687
+
+2018-11-06 10:18:28,386 - D://Program Files/Python/workspace/named_entity_recognition/data/log/crf/train_test_eng.log - INFO - processed 10257 tokens with 326 phrases; found: 0 phrases; correct: 0.
+
+2018-11-06 10:18:28,390 - D://Program Files/Python/workspace/named_entity_recognition/data/log/crf/train_test_eng.log - INFO - accuracy:  77.24%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-11-06 10:18:28,391 - D://Program Files/Python/workspace/named_entity_recognition/data/log/crf/train_test_eng.log - INFO -           abr_org: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-11-06 10:18:28,391 - D://Program Files/Python/workspace/named_entity_recognition/data/log/crf/train_test_eng.log - INFO -              date: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-11-06 10:18:28,391 - D://Program Files/Python/workspace/named_entity_recognition/data/log/crf/train_test_eng.log - INFO -               org: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-11-06 10:18:28,391 - D://Program Files/Python/workspace/named_entity_recognition/data/log/crf/train_test_eng.log - INFO -            person: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-11-06 10:21:55,557 - D://Program Files/Python/workspace/named_entity_recognition/data/log/crf/train_test_eng.log - DEBUG -              precision    recall  f1-score   support
+
+  B-abr_org     0.0000    0.0000    0.0000       145
+  I-abr_org     0.0000    0.0000    0.0000       459
+     B-date     0.0000    0.0000    0.0000        22
+     I-date     0.0000    0.0000    0.0000       168
+      B-org     0.0000    0.0000    0.0000       113
+      I-org     0.0000    0.0000    0.0000      1306
+   B-person     0.0000    0.0000    0.0000        46
+   I-person     0.0000    0.0000    0.0000        76
+
+avg / total     0.0000    0.0000    0.0000      2335
+
+2018-11-06 10:21:55,557 - D://Program Files/Python/workspace/named_entity_recognition/data/log/crf/train_test_eng.log - DEBUG -              precision    recall  f1-score   support
+
+  B-abr_org     0.0000    0.0000    0.0000       145
+  I-abr_org     0.0000    0.0000    0.0000       459
+     B-date     0.0000    0.0000    0.0000        22
+     I-date     0.0000    0.0000    0.0000       168
+      B-org     0.0000    0.0000    0.0000       113
+      I-org     0.0000    0.0000    0.0000      1306
+   B-person     0.0000    0.0000    0.0000        46
+   I-person     0.0000    0.0000    0.0000        76
+
+avg / total     0.0000    0.0000    0.0000      2335
+
+2018-11-06 11:50:11,421 - D://Program Files/Python/workspace/named_entity_recognition/data/log/crf/train_test_eng.log - INFO - processed 10257 tokens with 326 phrases; found: 248 phrases; correct: 227.
+
+2018-11-06 11:50:11,431 - D://Program Files/Python/workspace/named_entity_recognition/data/log/crf/train_test_eng.log - INFO - accuracy:  94.75%; precision:  91.53%; recall:  69.63%; FB1:  79.09
+
+2018-11-06 11:50:11,432 - D://Program Files/Python/workspace/named_entity_recognition/data/log/crf/train_test_eng.log - INFO -           abr_org: precision:  83.52%; recall:  52.41%; FB1:  64.41  91
+
+2018-11-06 11:50:11,432 - D://Program Files/Python/workspace/named_entity_recognition/data/log/crf/train_test_eng.log - INFO -              date: precision: 105.00%; recall:  95.45%; FB1: 100.00  20
+
+2018-11-06 11:50:11,432 - D://Program Files/Python/workspace/named_entity_recognition/data/log/crf/train_test_eng.log - INFO -               org: precision:  93.62%; recall:  77.88%; FB1:  85.02  94
+
+2018-11-06 11:50:11,432 - D://Program Files/Python/workspace/named_entity_recognition/data/log/crf/train_test_eng.log - INFO -            person: precision:  97.67%; recall:  91.30%; FB1:  94.38  43
+
+2018-11-06 11:52:09,299 - D://Program Files/Python/workspace/named_entity_recognition/data/log/crf/train_test_eng.log - INFO - processed 10257 tokens with 326 phrases; found: 0 phrases; correct: 0.
+
+2018-11-06 11:52:09,344 - D://Program Files/Python/workspace/named_entity_recognition/data/log/crf/train_test_eng.log - INFO - accuracy:  77.24%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2018-11-06 11:52:09,345 - D://Program Files/Python/workspace/named_entity_recognition/data/log/crf/train_test_eng.log - INFO -           abr_org: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-11-06 11:52:09,347 - D://Program Files/Python/workspace/named_entity_recognition/data/log/crf/train_test_eng.log - INFO -              date: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-11-06 11:52:09,348 - D://Program Files/Python/workspace/named_entity_recognition/data/log/crf/train_test_eng.log - INFO -               org: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-11-06 11:52:09,349 - D://Program Files/Python/workspace/named_entity_recognition/data/log/crf/train_test_eng.log - INFO -            person: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+
+2018-11-06 11:53:40,624 - D://Program Files/Python/workspace/named_entity_recognition/data/log/crf/train_test_eng.log - DEBUG -              precision    recall  f1-score   support
+
+  B-abr_org     0.9341    0.5862    0.7203       145
+  I-abr_org     0.8571    0.6144    0.7157       459
+     B-date     1.0000    0.9091    0.9524        22
+     I-date     1.0000    0.9643    0.9818       168
+      B-org     0.9574    0.7965    0.8696       113
+      I-org     0.9705    0.8553    0.9092      1306
+   B-person     0.9767    0.9130    0.9438        46
+   I-person     0.9857    0.9079    0.9452        76
+
+avg / total     0.9483    0.7996    0.8650      2335
+
+2018-11-06 11:53:40,624 - D://Program Files/Python/workspace/named_entity_recognition/data/log/crf/train_test_eng.log - DEBUG -              precision    recall  f1-score   support
+
+  B-abr_org     0.9341    0.5862    0.7203       145
+  I-abr_org     0.8571    0.6144    0.7157       459
+     B-date     1.0000    0.9091    0.9524        22
+     I-date     1.0000    0.9643    0.9818       168
+      B-org     0.9574    0.7965    0.8696       113
+      I-org     0.9705    0.8553    0.9092      1306
+   B-person     0.9767    0.9130    0.9438        46
+   I-person     0.9857    0.9079    0.9452        76
+
+avg / total     0.9483    0.7996    0.8650      2335
+

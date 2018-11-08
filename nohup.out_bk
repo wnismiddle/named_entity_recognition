@@ -1,0 +1,11 @@
+ * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 516-657-109
+192.168.3.234 - - [23/Feb/2018 14:16:56] "POST /tag HTTP/1.1" 200 -
+192.168.3.234 - - [23/Feb/2018 14:16:56] "POST /ner_rel HTTP/1.1" 200 -
+192.168.3.15 - - [23/Feb/2018 14:16:57] "POST /tag HTTP/1.1" 200 -
+/home/user/dsf_project/named_entity_recognition/app/utils
+1
+1
+/home/user/dsf_project/named_entity_recognition/app/utils
